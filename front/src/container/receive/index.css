@@ -1,0 +1,83 @@
+.padding {
+    margin-top: 32px;
+}
+
+.line {
+    height: 1px;
+    width: 353px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #E9E8EB;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 353px;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.card:hover {
+    border: 1px solid #5B94E9;
+}
+
+.card:active {
+    background-color: #e1e8f4;
+}
+
+.card__rightside {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card__icon1 {
+    background-image: url('../../../public/svg/stripe-icon.svg');
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+
+.card__icon2 {
+    background-image: url('../../../public/svg/coinbase-icon.svg');
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.card__name {
+    font-size: 16px;
+    color: #1D1D1F;
+    font-weight: bold;
+}
+
+.box__ofIcons1 {
+    background-image: url('../../../public/svg/box-with-icons1.svg');
+    width: 160px;
+    height: 22px;
+}
+
+.box__ofIcons2 {
+    background-image: url('../../../public/svg/box-with-icons2.svg');
+    width: 160px;
+    height: 22px;
+}
+
+.for__input {
+    position: absolute;
+    top: 176px;
+    font-size: 20px;
+    font-weight: 700;
+    left: 27px;
+}

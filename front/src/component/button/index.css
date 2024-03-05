@@ -1,0 +1,31 @@
+.button {
+    background-color: transparent;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 12px;
+    border: transparent;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    min-width: 353px;
+    cursor: pointer;
+}
+
+.active {
+    background-color: transparent;
+    border: transparent;
+    color: transparent;
+}
+
+.active:hover {
+    opacity: 0.8;
+}
+
+.active:active {
+    opacity: 0.4;
+}
+
+.passive {
+    opacity: 50%;
+    cursor: default;
+}

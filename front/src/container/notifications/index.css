@@ -1,0 +1,21 @@
+.loading {
+    margin-top: 36px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    animation: textAnimation 2s linear infinite;
+}
+
+@keyframes textAnimation {
+    0% {
+        color: blue;
+    }
+
+    50% {
+        color: rgb(222, 58, 217)
+    }
+
+    100% {
+        color: blue;
+    }
+}

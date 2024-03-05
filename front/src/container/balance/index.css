@@ -1,0 +1,95 @@
+.fon {
+    background-image: url("../../../public/svg/balance-fon.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    min-width: 393px;
+    min-height: 201px;
+    max-height: 201px;
+    margin: 0 -20px;
+    border-radius: 30px 30px 0 0;
+
+}
+
+.fon__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: relative;
+    margin-top: 61px;
+}
+
+.fon__settings {
+    background-image: url('../../../public/svg/button-settings.svg');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.fon__title {
+    color: white;
+    font-size: 16px;
+}
+
+.fon__notifications {
+    background-image: url('../../../public/svg/button-notifications.svg');
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+}
+
+.main__title {
+    position: relative;
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.fon__buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 43px;
+}
+
+.each__button {
+    display: grid;
+    justify-items: center;
+}
+
+.fon__receive {
+    background-image: url('../../../public/svg/button-receive.svg');
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.fon__send {
+    background-image: url('../../../public/svg/button-send.svg');
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    width: 70px;
+    height: 70px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.fon__button-span {
+    font-size: 14px;
+}
+
+.cards {
+    margin-top: 36px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}

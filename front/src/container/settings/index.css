@@ -1,0 +1,42 @@
+.padding__box1 {
+    margin-top: 12px;
+    padding-top: 8px;
+    background-color: rgb(231, 231, 250);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.line {
+    height: 1px;
+    width: 353px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #E9E8EB;
+}
+
+.padding__box2 {
+    padding-top: 8px;
+    padding-bottom: 1px;
+    background-color: #e7f7f8;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.email__error {
+    font-size: 16px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 12px;
+    padding: 2px;
+    position: absolute;
+    top: 506px;
+    width: 353px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}

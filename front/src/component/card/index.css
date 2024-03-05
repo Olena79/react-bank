@@ -1,0 +1,55 @@
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 353px;
+    border-radius: 12px;
+    border: 1px solid #E9E8EB;
+    cursor: pointer;
+}
+
+.card__rightside {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.card__icon {
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+}
+
+.card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.card__name {
+    font-size: 16px;
+    color: #1D1D1F;
+    font-weight: bold;
+}
+
+.card__footer {
+    font-size: 12px;
+    color: #939199;
+    display: flex;
+    gap: 5px;
+}
+
+.card__money {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card__point {
+    width: 3px;
+    height: 3px;
+    background-color: #939199;
+    border-radius: 50%;
+    margin-top: 7px;
+}

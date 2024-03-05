@@ -1,0 +1,10 @@
+.page {
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    max-width: 393px;
+    min-height: 852px;
+    border-radius: 30px;
+    padding: 0 20px;
+    position: absolute;
+}

@@ -1,0 +1,19 @@
+.input {
+    padding: 16px 20px;
+    border-radius: 12px;
+    width: 351px;
+}
+
+.input:hover {
+    background-color: #E9E8EB;
+}
+
+.focused {
+    border: 1px solid #775CE5;
+    border-radius: 12px;
+}
+
+.unfocused {
+    border: 1px solid #E9E8EB;
+    border-radius: 12px;
+}

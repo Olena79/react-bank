@@ -1,0 +1,7 @@
+.App-background {
+    background-color: rgb(43, 42, 42);
+    min-height: 1080px;
+    height: 100%;
+    padding-top: 32px;
+    padding-left: calc((100% - 393px) / 2);
+}

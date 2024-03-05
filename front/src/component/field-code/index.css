@@ -1,0 +1,9 @@
+.error {
+    color: red;
+}
+
+.field {
+    display: grid;
+    gap: 8px;
+    font-size: 14px;
+}

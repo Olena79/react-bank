@@ -1,0 +1,8 @@
+.back_button {
+    background-image: url('./../../../public/svg/arrow-back.svg');
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    margin-top: 61px;
+}

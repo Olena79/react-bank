@@ -1,0 +1,30 @@
+.padding {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.block {
+    display: block;
+    color: #F2883D;
+    background-color: #FFEFE3;
+    text-align: center;
+    padding: 17px;
+    border: 1px solid #F2883D;
+    border-radius: 12px;
+
+}
+
+.none {
+    display: none;
+}
+
+.error__icon {
+    background-image: url("../../../public/svg/error-icon.svg");
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 36px;
+}
